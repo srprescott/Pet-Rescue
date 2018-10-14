@@ -26,7 +26,7 @@ font-family: 'Anton', sans-serif;
 body{
     margin: 0;
     background:#41B3A3;
-    background-image: url("images/texture.png");
+    background-image: url("images/45-degree-fabric-dark.png");
     background-repeat: repeat;
     font-family: 'Bitter', serif;
     color: #444444;
@@ -101,11 +101,11 @@ ul{
     -ms-flex-direction: row;
     flex-direction: row;
     list-style-type: none;
-    
+    padding:0;
 }
 
 li a{
-    padding-right:20px;
+    padding:0 10px;
     color: #444444;
     font-size: 1.4rem;
     text-decoration: none;
@@ -128,6 +128,7 @@ li a:hover{
 
 .two{
     margin: 0;
+    padding-top: 25px;
     background-color: white;
 }
 
@@ -180,7 +181,6 @@ li a:hover{
 
 .action-p{
     padding-top: 30px;
-    border-top: 4px dotted #E27D60;
     font-size: 3rem;
 }
 
@@ -188,32 +188,103 @@ li a:hover{
     font-size: 3rem;
 }
 
-.fas{
+a .fas{
     padding-bottom: 30px;
-    border-bottom: 4px dotted #E27D60;
     color: #85CDCA;
     padding-top: 25px;
 }
 
 
 
+/* MMMMMMMM Section Three MMMMMMMM */
+
+.sec{
+    color:white;
+    padding-top: 25px;
+}
+
+.sec-three{
+    
+}
+
+
+
+.sec-intro{
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 15px 0;
+}
+
+
+
+.of-the-week{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+}
+
+.week{
+    max-height: 400px;
+    max-width: 600px;
+    border: 5px solid white;
+}
+
+.list{
+    padding:0 10px;
+}
 
 
 
 
 
+.fas{
+    color:white;
+    padding:0;
+    margin: 0;
+    padding-right: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.intro-p{
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.sub-p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+span{
+    font-size: 1.5rem;
+    color:#E8A87C;
+    text-shadow: 2px 2px 2px black;
+}
 
 
 
+/* 
 
+<i class="fas fa-dog"></i>
+<i class="fas fa-paw"></i>
+<i class="fas fa-cat"></i>
 
-
-
-
-
-
-
-
+*/
 
 
 
@@ -247,6 +318,9 @@ li a:hover{
         width: 100%;
         padding:0;
         margin: 0;
+    }
+    .week{
+        max-width: 100%;
     }
     header {
         display: -webkit-box;
@@ -291,14 +365,20 @@ li a:hover{
         max-height: 100%;
         max-width: 100%;
     }
-    .main-dog, .call-to-action{
+    .main, .sec-three{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
+    }
+    .main-dog, .call-to-action, .of-the-week{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 15px 0;
+    }
+    .action-p, .fas{
+        border:none;
     }
 }
 
@@ -354,14 +434,20 @@ li a:hover{
         max-height: 100%;
         max-width: 100%;
     }
-    .main-dog, .call-to-action{
+    .main{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
+    }
+    .main-dog, .call-to-action{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 15px 0;
+    }
+    .action-p, .fas{
+        border:none;
     }
 }
 
@@ -417,16 +503,21 @@ li a:hover{
         max-height: 100%;
         max-width: 100%;
     }
-    .main-dog, .call-to-action{
+    .main{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
     }
-    
+    .main-dog, .call-to-action{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 15px 0;
+    }
+    .action-p, .fas{
+        border:none;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -481,14 +572,19 @@ li a:hover{
         max-height: 100%;
         max-width: 100%;
     }
-    .main-dog, .call-to-action{
+    .main{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
         -ms-flex-flow: wrap;
         flex-flow: wrap;
     }
-    
+    .main-dog, .call-to-action{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 15px 0;
+    }
+    .action-p, .fas{
+        border:none;
+    }
 }
