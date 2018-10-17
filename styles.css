@@ -281,6 +281,8 @@ a .fas{
     -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 50px;
+    background-color: #8DE4AF;
+    padding: 10px;
 }
 
 .animals{
