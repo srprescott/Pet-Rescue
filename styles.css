@@ -376,9 +376,32 @@ span{
 
 
 
+.footer{
+    background-color:#05396B;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    position:static;
+    font-family: 'Bitter', serif;
+    color:white;
+    font-size: 1.3em;
+    padding-top:8px;
+}
 
+.footer p a{
+    text-decoration: underline;
+    color:white;
+}
 
-
+.footer p a:hover{
+    text-decoration: overline;
+    color:#8DE4AF;
+}
 
 
 
@@ -466,6 +489,9 @@ span{
     .action-p, .fas{
         border:none;
     }
+    .intro-p-main{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -534,6 +560,9 @@ span{
     }
     .action-p, .fas{
         border:none;
+    }
+    .intro-p-main{
+        text-align: center;
     }
 }
 
@@ -604,6 +633,9 @@ span{
     .action-p, .fas{
         border:none;
     }
+    .intro-p-main{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -672,5 +704,8 @@ span{
     }
     .action-p, .fas{
         border:none;
+    }
+    .intro-p-main{
+        text-align: center;
     }
 }
