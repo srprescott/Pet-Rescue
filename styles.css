@@ -128,7 +128,6 @@ li a:hover{
 
 .two{
     margin: 0;
-    padding-top: 25px;
     background-color: white;
 }
 
@@ -145,14 +144,21 @@ li a:hover{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    
-    
+}
+
+.sec-main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .main-dog{
     max-height: 500px;
-    -ms-flex-preferred-size:50%;
-    flex-basis: 50%;
+    -ms-flex-preferred-size:45%;
+    flex-basis: 45%;
 }
 
 .call-to-action{
@@ -172,8 +178,8 @@ li a:hover{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
     color:#379681;
     border-top: 4px dotted #379681;
     border-bottom: 4px dotted #379681;
@@ -181,7 +187,6 @@ li a:hover{
 
 .action-p{
     font-family: 'Anton', sans-serif;
-    padding-top: 30px;
     font-size: 3rem;
 }
 
@@ -191,7 +196,7 @@ li a:hover{
 }
 
 a .fas{
-    padding-bottom: 30px;
+    
     color: #379681;
     padding-top: 25px;
 }
