@@ -25,7 +25,7 @@ font-family: 'Anton', sans-serif;
 
 body{
     margin: 0;
-    background:#41B3A3;
+    background:#5CDB94;
     background-image: url("images/45-degree-fabric-dark.png");
     background-repeat: repeat;
     font-family: 'Bitter', serif;
@@ -64,7 +64,7 @@ header{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #444444;
+    color: #05396B;
 }
 
 .nav-intro{
@@ -106,7 +106,7 @@ ul{
 
 li a{
     padding:0 10px;
-    color: #444444;
+    color: #05396B;
     font-size: 1.4rem;
     text-decoration: none;
 }
@@ -174,23 +174,25 @@ li a:hover{
     align-items: center;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
-    color:#E27D60;
-    border-top: 4px dotted #E27D60;
-    border-bottom: 4px dotted #E27D60;
+    color:#379681;
+    border-top: 4px dotted #379681;
+    border-bottom: 4px dotted #379681;
 }
 
 .action-p{
+    font-family: 'Anton', sans-serif;
     padding-top: 30px;
     font-size: 3rem;
 }
 
 .action-sub-p{
+    font-family: 'Anton', sans-serif;
     font-size: 3rem;
 }
 
 a .fas{
     padding-bottom: 30px;
-    color: #85CDCA;
+    color: #379681;
     padding-top: 25px;
 }
 
@@ -200,11 +202,17 @@ a .fas{
 
 .sec{
     color:white;
-    padding-top: 25px;
+    margin-top: 50px;
 }
 
-.sec-three{
-    
+.sec-three, .sec-five{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 
@@ -234,8 +242,8 @@ a .fas{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
 }
 
 .week{
@@ -252,12 +260,78 @@ a .fas{
 
 
 
+
+
+
+/* MMMMMMMM Section Three MMMMMMMM */
+.sec-four{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.animals{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.adoptables{
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .fas{
     color:white;
     padding:0;
     margin: 0;
     padding-right: 15px;
     text-shadow: 2px 2px 2px black;
+}
+
+.intro-p-main a{
+    color:white;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+.intro-p-main a:hover{
+    text-decoration: overline;
 }
 
 .intro-p{
@@ -268,12 +342,17 @@ a .fas{
 .sub-p{
     margin: 10px 0;
     font-size: 1.2rem;
+    text-align: center;
+}
+
+.sub-p a{
+    color: #EDF5E0
 }
 
 span{
     font-size: 1.5rem;
-    color:#E8A87C;
-    text-shadow: 2px 2px 2px black;
+    color:#05396B;
+    
 }
 
 
