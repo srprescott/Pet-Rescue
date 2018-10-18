@@ -4,18 +4,16 @@
 
 /* 
 *{
-       color: #FA9EAA
-        #FAC8BE
-        #FAEEC8
-        #7DC4CA
-        #43888E
-           
-          #F2BBAD
-#FBDCCE
-#ECEAE5
-#AFDFDB
-#75C9CC
+    
+#05396B
+#389583
+#5CDB94
+#8DE4AF
+#EDF5E0
  
+<i class="fas fa-dog"></i>
+<i class="fas fa-paw"></i>
+<i class="fas fa-cat"></i>
 
 font-family: 'Bitter', serif;
 font-family: 'Anton', sans-serif;
@@ -185,21 +183,9 @@ li a:hover{
     border-bottom: 4px dotted #379681;
 }
 
-.action-p{
-    font-family: 'Anton', sans-serif;
-    font-size: 3rem;
-}
 
-.action-sub-p{
-    font-family: 'Anton', sans-serif;
-    font-size: 3rem;
-}
 
-a .fas{
-    
-    color: #379681;
-    padding-top: 25px;
-}
+
 
 
 
@@ -220,10 +206,7 @@ a .fas{
     margin-bottom: 50px;
 }
 
-
-
 .sec-intro{
-    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -233,8 +216,6 @@ a .fas{
     flex-direction: row;
     padding: 15px 0;
 }
-
-
 
 .of-the-week{
     display: -webkit-box;
@@ -321,6 +302,23 @@ a .fas{
 
 
 
+/* MMMMMMMM Word Style MMMMMMMM */
+
+.action-p{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+.action-sub-p{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+a .fas{
+    
+    color: #379681;
+    padding-top: 25px;
+}
 
 .fas{
     color:white;
@@ -364,18 +362,12 @@ span{
 
 
 
-/* 
-
-<i class="fas fa-dog"></i>
-<i class="fas fa-paw"></i>
-<i class="fas fa-cat"></i>
-
-*/
 
 
 
 
 
+/* MMMMMMMM Footer MMMMMMMM */
 .footer{
     background-color:#05396B;
     display: -webkit-box;

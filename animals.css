@@ -3,18 +3,16 @@
 
 /* 
 *{
-       color: #FA9EAA
-        #FAC8BE
-        #FAEEC8
-        #7DC4CA
-        #43888E
-           
-          #F2BBAD
-#FBDCCE
-#ECEAE5
-#AFDFDB
-#75C9CC
+    
+#05396B
+#389583
+#5CDB94
+#8DE4AF
+#EDF5E0
  
+<i class="fas fa-dog"></i>
+<i class="fas fa-paw"></i>
+<i class="fas fa-cat"></i>
 
 font-family: 'Bitter', serif;
 font-family: 'Anton', sans-serif;
@@ -38,9 +36,6 @@ p {
 .main{
     margin: 0 15%;
 }
-
-
-
 
 
 /* MMMMMMMM Header MMMMMMMM */
@@ -117,6 +112,7 @@ li a:hover{
 
 
 
+/* MMMMMMMM Main MMMMMMMM */
 
 
 
@@ -141,15 +137,95 @@ li a:hover{
 
 
 
+/* MMMMMMMM Word Style MMMMMMMM */
+
+.action-p{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+.action-sub-p{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+}
+
+a .fas{
+    
+    color: #379681;
+    padding-top: 25px;
+}
+
+.fas{
+    color:white;
+    padding:0;
+    margin: 0;
+    padding-right: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.intro-p-main {
+    color:white;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+}
+
+.intro-p-main a:hover{
+    text-decoration: overline;
+}
+
+.intro-p{
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.sub-p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.sub-p a{
+    color: #EDF5E0
+}
+
+span{
+    font-size: 1.5rem;
+    color:#05396B;
+    
+}
 
 
 
 
 
+/* MMMMMMMM Footer MMMMMMMM */
+.footer{
+    background-color:#05396B;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    position:static;
+    font-family: 'Bitter', serif;
+    color:white;
+    font-size: 1.1em;
+    padding-top:8px;
+}
 
+.footer p a{
+    text-decoration: underline;
+    color:white;
+}
 
-
-
+.footer p a:hover{
+    text-decoration: overline;
+    color:#8DE4AF;
+}
 
 
 
