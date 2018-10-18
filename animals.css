@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Bitter');
+
+
+/* 
+*{
+       color: #FA9EAA
+        #FAC8BE
+        #FAEEC8
+        #7DC4CA
+        #43888E
+           
+          #F2BBAD
+#FBDCCE
+#ECEAE5
+#AFDFDB
+#75C9CC
+ 
+
+font-family: 'Bitter', serif;
+font-family: 'Anton', sans-serif;
+}
+*/
+
+
+body{
+    margin: 0;
+    background:#5CDB94;
+    background-image: url("images/texture.png");
+    background-repeat: repeat;
+    font-family: 'Bitter', serif;
+    color: #444444;
+}
+
+p {
+    margin: 0;
+}
+
+.main{
+    margin: 0 15%;
+}
+
+
+
+
+
+/* MMMMMMMM Header MMMMMMMM */
+
+header{
+    padding: 20px 0;
+    font-family: 'Bitter', serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #05396B;
+}
+
+.nav-intro{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo{
+    margin: 0 15px;
+}
+
+.intro{
+    margin: 0;
+    font-size: 2.5rem;
+    
+}
+
+ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style-type: none;
+    padding:0;
+}
+
+li a{
+    padding:0 10px;
+    color: #05396B;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:white;
+    text-decoration:overline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {}
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .week{
+        max-width: 100%;
+    }
+    header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    ul, .nav-intro{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding:0;
+    }
+    li{
+        padding: 0 5px;
+        
+    }
+    .logo{
+        padding-top: 20px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:640px) {
+   .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    ul, .nav-intro{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding:0;
+    }
+    li{
+        padding: 0 5px;
+        
+    }
+    .logo{
+        padding-top: 20px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    ul, .nav-intro{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding:0;
+    }
+    li{
+        padding: 0 5px;
+        
+    }
+    .logo{
+        padding-top: 20px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    ul, .nav-intro{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding:0;
+    }
+    li{
+        padding: 0 5px;
+        
+    }
+    .logo{
+        padding-top: 20px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+}
