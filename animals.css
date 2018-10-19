@@ -114,6 +114,23 @@ li a:hover{
 
 /* MMMMMMMM Main MMMMMMMM */
 
+.title-block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
 .pet-section{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,6 +150,7 @@ li a:hover{
     background-color: white;
     margin: 20px 0;
     max-width: 425px;
+    border: 5px solid #8DE4AF;
 }
 
 .pets{
@@ -193,7 +211,7 @@ a .fas{
     color:white;
     padding:0;
     margin: 0;
-    padding-right: 15px;
+    padding: 0 15px;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -203,7 +221,7 @@ a .fas{
     text-shadow: 2px 2px 2px black;
     text-decoration: none;
     text-align: center;
-    margin: 20px 0;
+    
 }
 
 .intro-p-sub{
@@ -360,6 +378,7 @@ span{
     .pets, .pet-block{
         max-width: 100%;
     }
+    
 }
 
 @media screen and (max-width:640px) {
