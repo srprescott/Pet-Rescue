@@ -131,6 +131,8 @@ li a:hover{
 
 .pet-block{
     background-color: white;
+    margin: 20px 0;
+    max-width: 425px;
 }
 
 .pets{
@@ -142,9 +144,13 @@ li a:hover{
     flex-flow: wrap;
     -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
+    -webkit-box-shadow: 2px 2px 2px gray;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
-
+.pet-blurb{
+    margin: 15px;
+}
 
 
 
@@ -197,6 +203,13 @@ a .fas{
     text-shadow: 2px 2px 2px black;
     text-decoration: none;
     text-align: center;
+    margin: 20px 0;
+}
+
+.intro-p-sub{
+    color:white;
+    font-size: 1.5rem;
+    margin: 30px 15px;
 }
 
 .intro-p-main a:hover{
@@ -205,13 +218,13 @@ a .fas{
 
 .intro-p{
     font-size: 1.8rem;
-    text-shadow: 2px 2px 2px black;
+    color: #05396B;
 }
 
 .sub-p{
     margin: 10px 0;
     font-size: 1.2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .sub-p a{
@@ -219,10 +232,17 @@ a .fas{
 }
 
 span{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color:#05396B;
-    
+    margin-right: 10px;
 }
+
+
+
+
+
+
+
 
 
 
@@ -255,6 +275,21 @@ span{
     text-decoration: overline;
     color:#8DE4AF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -322,7 +357,9 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .pets, .pet-block{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -377,7 +414,9 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .pets, .pet-block{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -432,7 +471,9 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .pets, .pet-block{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -487,5 +528,7 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .pets, .pet-block{
+        max-width: 100%;
+    }
 }
