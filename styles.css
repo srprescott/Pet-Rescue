@@ -28,6 +28,7 @@ body{
     background-repeat: repeat;
     font-family: 'Bitter', serif;
     color: #444444;
+    overflow-x: hidden;
 }
 
 p {
