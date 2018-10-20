@@ -412,14 +412,21 @@ span{
     #page {}
 }
 
-@media screen and (max-width:959px) {
+
+
+
+
+
+
+@media screen and (max-width:1140px) {
     .container-fluid {
         width: 100%;
     }
     .row, body, .main {
-        width: 100%;
+        max-width: 100%;
         padding:0;
         margin: 0;
+        overflow-x: hidden;
     }
     .week{
         max-width: 100%;
@@ -493,7 +500,93 @@ span{
     display: flex;
     -ms-flex-preferred-size: 30%;
     flex-basis: 30%;
+    }
 }
+
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        max-width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .week{
+        max-width: 100%;
+    }
+    header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    ul, .nav-intro{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding:0;
+    }
+    li{
+        padding: 0 5px;
+        
+    }
+    .logo{
+        padding-top: 20px;
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .main, .sec-three{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .main-dog, .call-to-action, .of-the-week{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding: 15px 0;
+        max-width: 100%;
+    }
+    .action-p, .fas{
+        border:none;
+    }
+    .intro-p-main{
+        text-align: center;
+    }
+    .adoptables{
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -501,9 +594,10 @@ span{
         width: 100%;
     }
     .row, body, .main {
-        width: 100%;
+        max-width: 100%;
         padding:0;
         margin: 0;
+        overflow-x: hidden;
     }
     header {
         display: -webkit-box;
@@ -582,9 +676,10 @@ span{
         width: 100%;
     }
     .row, body, .main {
-        width: 100%;
+        max-width: 100%;
         padding:0;
         margin: 0;
+        overflow-x: hidden;
     }
     header {
         display: -webkit-box;
@@ -663,9 +758,10 @@ span{
         width: 100%;
     }
     .row, body, .main {
-        width: 100%;
+        max-width: 100%;
         padding:0;
         margin: 0;
+        overflow-x: hidden;
     }
     header {
         display: -webkit-box;
