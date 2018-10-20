@@ -486,6 +486,14 @@ span{
     .intro-p-main{
         text-align: center;
     }
+    .adoptables{
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+}
 }
 
 @media screen and (max-width:640px) {
@@ -559,6 +567,14 @@ span{
     .intro-p-main{
         text-align: center;
     }
+    .adoptables{
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+}
 }
 
 @media screen and (max-width:360px) {
@@ -632,6 +648,14 @@ span{
     .intro-p-main{
         text-align: center;
     }
+    .adoptables{
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+}
 }
 
 @media screen and (max-width:320px) {
@@ -705,6 +729,14 @@ span{
     .intro-p-main{
         text-align: center;
     }
+    .adoptables{
+    padding: 20px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+}
 }
 
 @import url('https://fonts.googleapis.com/css?family=Anton|Bitter');
