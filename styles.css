@@ -154,7 +154,7 @@ li a:hover{
 }
 
 .main-dog{
-    max-height: 500px;
+    max-width: 600px;
     -ms-flex-preferred-size:45%;
     flex-basis: 45%;
 }
@@ -477,6 +477,7 @@ span{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding: 15px 0;
+        max-width: 100%;
     }
     .action-p, .fas{
         border:none;
@@ -545,10 +546,11 @@ span{
         -ms-flex-flow: wrap;
         flex-flow: wrap;
     }
-    .main-dog, .call-to-action{
+    .main-dog, .call-to-action, .of-the-week{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding: 15px 0;
+        max-width: 100%;
     }
     .action-p, .fas{
         border:none;
@@ -617,10 +619,11 @@ span{
         -ms-flex-flow: wrap;
         flex-flow: wrap;
     }
-    .main-dog, .call-to-action{
+    .main-dog, .call-to-action, .of-the-week{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding: 15px 0;
+        max-width: 100%;
     }
     .action-p, .fas{
         border:none;
@@ -689,10 +692,11 @@ span{
         -ms-flex-flow: wrap;
         flex-flow: wrap;
     }
-    .main-dog, .call-to-action{
+    .main-dog, .call-to-action, .of-the-week{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding: 15px 0;
+        max-width: 100%;
     }
     .action-p, .fas{
         border:none;
@@ -701,3 +705,5 @@ span{
         text-align: center;
     }
 }
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Bitter');
