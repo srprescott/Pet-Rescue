@@ -111,11 +111,35 @@ li a:hover{
 
 
 
-/* MMMMMMMM Main MMMMMMMM */
+/* MMMMMMMM Help Block One MMMMMMMM */
 
+.help-block-one{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
 
-
-
+.help-one{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
 
 
 
@@ -162,20 +186,17 @@ a .fas{
     text-shadow: 2px 2px 2px black;
 }
 
-.intro-p-main a{
+.intro-p-main{
     color:white;
     font-size: 2.2rem;
     text-shadow: 2px 2px 2px black;
-    text-decoration: none;
-}
-
-.intro-p-main a:hover{
-    text-decoration: overline;
+    text-align: center;
 }
 
 .intro-p{
     font-size: 1.8rem;
-    text-shadow: 2px 2px 2px black;
+    color:white;
+    text-align: center;
 }
 
 .sub-p{
@@ -292,7 +313,11 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .help-one{
+        width:100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -347,7 +372,11 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .help-one{
+        width:100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
 }
 
 @media screen and (max-width:360px) {
@@ -402,7 +431,11 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .help-one{
+        width:100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -457,5 +490,9 @@ span{
         max-height: 100%;
         max-width: 100%;
     }
-    
+    .help-one{
+        width:100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
 }
