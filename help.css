@@ -157,6 +157,7 @@ li a:hover{
 /* MMMMMMMM Calendar MMMMMMMM */
 
 .calendar{
+    font-family: 'Bitter', serif;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -169,7 +170,14 @@ li a:hover{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    
+    background-color: #5CDB94;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.months{
+    font-size: 2rem;
+    color:white;
 }
 
 .table{
@@ -180,20 +188,41 @@ li a:hover{
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    border: 5px solid black;
-    background-color: #389583;
-}
-
-.week{
+    background-color: #8DE4AF;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 
+.nov{
+    color:white ; 
+}
+
+.months{
+    color:#05396B;
+}
+
+.cal-month{
+    
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.cal-month:hover{
+    color:white;
+    text-decoration: overline;
+}
+
+.week{
+    -webkit-box-shadow: 2px 2px 2px #555555;
+    box-shadow: 0 4px 2px -2px #555555;
+}
+
 .week td{
-    background-color: #389583;
     height: 120px;
     width: 120px;
     text-align: center;
-    border-right: 1px solid #389583;
+    border-right: 1px solid #8DE4AF;
 }
 
 .days{
@@ -204,7 +233,7 @@ li a:hover{
     -ms-flex-pack: end;
     justify-content: flex-end;
     background-color: white;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #D3D3D3;
     
 }
 
@@ -213,7 +242,7 @@ li a:hover{
     text-align: center;
     height: 122px;
     width: 122px;  
-    border-right: 1px solid gray;
+    border-right: 1px solid #D3D3D3;
 }
 
 
