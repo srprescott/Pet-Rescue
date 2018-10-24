@@ -154,15 +154,67 @@ li a:hover{
 
 
 
+/* MMMMMMMM Calendar MMMMMMMM */
 
+.calendar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
 
+.table{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 5px solid black;
+    background-color: #389583;
+}
 
+.week{
+    
+}
 
+.week td{
+    background-color: #389583;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border-right: 1px solid #389583;
+}
 
+.days{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    
+}
 
-
-
-
+.days td{
+    padding-top: 10px;
+    text-align: center;
+    height: 122px;
+    width: 122px;  
+    border-right: 1px solid gray;
+}
 
 
 
