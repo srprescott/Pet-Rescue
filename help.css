@@ -194,8 +194,18 @@ li a:hover{
     
 }
 
-.nov{
+.month-high{
     color:white ; 
+}
+
+.nov{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .dec{
+    display: none;
 }
 
 .months{
