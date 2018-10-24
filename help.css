@@ -114,6 +114,7 @@ li a:hover{
 /* MMMMMMMM Help Block One MMMMMMMM */
 
 .help-block-one{
+    padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -124,6 +125,9 @@ li a:hover{
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    background-color: white;
 }
 
 .help-one{
@@ -143,7 +147,9 @@ li a:hover{
     background-color: white;
 }
 
-
+.main-img{
+    max-width:600px;
+}
 
 
 
@@ -259,6 +265,15 @@ span{
 
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 320px) and (max-width:580px) {
     #page {}
 }
@@ -323,6 +338,9 @@ span{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
+    .main-img{
+        width:100%;
+    }
 }
 
 @media screen and (max-width:640px) {
@@ -381,6 +399,9 @@ span{
         width:100%;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+    }
+    .main-img{
+        width:100%;
     }
 }
 
@@ -441,6 +462,9 @@ span{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
+    .main-img{
+        width:100%;
+    }
 }
 
 @media screen and (max-width:320px) {
@@ -499,5 +523,8 @@ span{
         width:100%;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+    }
+    .main-img{
+        width:100%;
     }
 }
