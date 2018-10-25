@@ -194,6 +194,8 @@ li a:hover{
     
 }
 
+
+
 .month-high{
     color:white ; 
 }
@@ -204,7 +206,7 @@ li a:hover{
     display: flex;
 }
 
-.jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .dec{
+.no-show{
     display: none;
 }
 

@@ -11,63 +11,73 @@
         <script>
             
             function january(){
-                document.querySelector(".feb .mar .apr .may .jun .jul .aug .sep .oct .nov .dec").style.display = "none";
-                document.querySelector(".jan").style.display= "flex";
+                document.querySelector(".feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
+                document.querySelector(".jan").style.display = "flex";
             }
             
             function february(){
-                document.querySelector(".jan .mar .apr .may .jun .jul .aug .sep .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".feb").style.display= "flex";
             }
             
             function march(){
-                document.querySelector(".jan .feb .apr .may .jun .jul .aug .sep .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .apr, .may, .jun, .jul, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".mar").style.display= "flex";
             }
             
             function april(){
-                document.querySelector(".jan .feb .mar .may .jun .jul .aug .sep .oct .nov .dec").style.display = "none";
+                document.querySelectorAll("jan,, feb, mar, .may, .jun, .jul, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".apr").style.display= "flex";
             }
             
             function may(){
-                document.querySelector(".jan .feb .mar .apr .jun .jul .aug .sep .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .mar, .apr, .jun, .jul, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".may").style.display= "flex";
             }
             
             function june(){
-                document.querySelector(".jan .feb .mar .apr .may .jul .aug .sep .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .mar, .apr, .may, .jul, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".jun").style.display= "flex";
             }
             
             function july(){
-                document.querySelector(".jan .feb .mar .apr .may .jun .aug .sep .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .mar, .apr, .may, .jun, .aug, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".jul").style.display= "flex";
             }
             
             function august(){
-                document.querySelector(".jan .feb .mar .apr .may .jun .jul .sep .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .mar, .apr, .may, .jun, .jul, .sep, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".aug").style.display= "flex";
             }
             
             function september(){
-                document.querySelector(".jan .feb .mar .apr .may .jun .jul .aug .oct .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .oct, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".sep").style.display= "flex";
             }
             
             function october(){
-                document.querySelector(".jan .feb .mar .apr .may .jun .jul .aug .sep .nov .dec").style.display = "none";
+                document.querySelector(".jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .nov, .dec").style.display = "none";
+                document.querySelector(".nov").style.display = "none";
                 document.querySelector(".oct").style.display= "flex";
             }
             
             function november(){
+                document.querySelector(".jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .dec").style.display = "none";
                 document.querySelector(".dec").style.display = "none";
                 document.querySelector(".nov").style.display= "flex";
             }
             
             function december(){
-                document.querySelector(".nov").style.display = "none";
-                document.querySelector(".dec").style.display= "flex";
+                document.querySelector(".dec"). 
             }
             
             
@@ -128,89 +138,83 @@
                 <div class="calendar">
                     
                     <div class="months">
-                        <p class="jan-month cal-month" onClick="january()">January</p>
-                        <p class="feb-month cal-month" onClick="february()">February</p>
-                        <p class="mar-month cal-month" onClick="march()">March</p>
-                        <p class="apr-month cal-month" onClick="april()">April</p>
-                        <p class="may-month cal-month" onClick="may()">May</p>
-                        <p class="jun-month cal-month" onClick="june()">June</p>
-                        <p class="jul-month cal-month" onClick="july()">July</p>
-                        <p class="aug-month cal-month" onClick="august()">August</p>
-                        <p class="sep-month cal-month" onClick="september()">September</p>
-                        <p class="oct-month cal-month" onClick="october()">October</p>
-                        <p class="nov-month cal-month" onClick="november()">November</p>
-                        <p class="dec-month cal-month" onClick="december()" >December</p>
+                        <p class="jan-month cal-month" onClick="january()">January 2019</p>
+                        <p class="feb-month cal-month" onClick="february()">February 2019</p>
+                        <p class="mar-month cal-month" onClick="march()">March 2019</p>
+                        <p class="apr-month cal-month" onClick="april()">April 2019</p>
+                        <p class="may-month cal-month" onClick="may()">May 2019</p>
+                        <p class="jun-month cal-month" onClick="june()">June 2019</p>
+                        <p class="jul-month cal-month" onClick="july()">July 2019</p>
+                        <p class="aug-month cal-month" onClick="august()">August 2019</p>
+                        <p class="sep-month cal-month" onClick="september()">September 2019</p>
+                        <p class="oct-month cal-month" onClick="october()">October 2019</p>
+                        <p class="nov-month cal-month" onClick="november()">November 2018</p>
+                        <p class="dec-month cal-month" onClick="december()" >December 2018</p>
                     </div>
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     January     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="jan table">
+                    <table class="no-show jan table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
                         </tr>
                         
                         <tr class="days">
-                            <td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td>
+                            <td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
                         </tr>
                         
                         <tr class="days">
-                            <td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+                            <td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
                         </tr>
                         
                         <tr class="days">
-                            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+                            <td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
                         </tr>    
                         
                         <tr class="days">
-                            <td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+                            <td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
                         </tr>    
                         
                         <tr class="days">
-                            <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+                            <td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td>
                         </tr>
                         
-                        <tr class="days">
-                            <td>31</td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        </tr>
                     </table>
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     February     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="feb table">
+                    <table class="no-show feb table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
                         </tr>
                         
                         <tr class="days">
-                            <td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td>
+                            <td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
                         </tr>
                         
                         <tr class="days">
-                            <td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+                            <td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
                         </tr>
                         
                         <tr class="days">
-                            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+                            <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
                         </tr>    
                         
                         <tr class="days">
-                            <td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td>
+                            <td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td>
                         </tr>    
                         
                         <tr class="days">
-                            <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td>
+                            <td>25</td><td>26</td><td>27</td><td>28</td><td></td><td></td><td></td>
                         </tr>
                         
-                        <tr class="days">
-                            <td>31</td><td></td><td></td><td></td><td></td><td></td><td></td>
-                        </tr>
                     </table>
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     March     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="mar table">
+                    <table class="no-show mar table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -242,7 +246,7 @@
                     </table>
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     April     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="apr table">
+                    <table class="no-show apr table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -275,7 +279,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     May     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="may table">
+                    <table class="no-show may table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -307,7 +311,7 @@
                     </table>
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     June     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="jun table">
+                    <table class="no-show jun table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -340,7 +344,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     July     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="jul table">
+                    <table class="no-show jul table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -373,7 +377,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     August     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="aug table">
+                    <table class="no-show aug table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -406,7 +410,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     September     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="sep table">
+                    <table class="no-show sep table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -439,7 +443,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     October     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="oct table">
+                    <table class="no-show oct table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -472,7 +476,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     November     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="nov table">
+                    <table class="show nov table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
@@ -502,7 +506,7 @@
                     
                     
                     <!--  MMMMMMMMMMMMMMMMMMMMMMMM     December     MMMMMMMMMMMMMMMMMMMMMMMM  -->
-                    <table class="dec table">
+                    <table class="no-show dec table">
                         <tr class="week">
                             <td>Monday</td><td>Tuesday</td><td>Wednesday</td><td>Thursday</td><td>Friday</td>
                             <td>Saturday</td><td>Sunday</td>
