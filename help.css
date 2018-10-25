@@ -251,10 +251,9 @@ li a:hover{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-preferred-size: 110px;
-    flex-basis: 110px;
     padding: 10px;
     border-right: 1px solid #D3D3D3;
+    width: 110px;
 }
 
 tr{
@@ -270,6 +269,8 @@ tr{
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    height: 110px;
+    width: 110px;
 }
 
 
@@ -462,17 +463,26 @@ span{
     .main-img{
         width:100%;
     }
-    tr{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+    .calendar{
+        -ms-flex-flow: wrap-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        flex-flow: wrap-reverse;
     }
-    td{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 15%;
-        flex-basis: 15%;
+    .cal-month{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .months{
+        padding:50px 0 0 0;
+    }
+    .days td{
+        height: 20px;
+        width: 20px;
+    }
+    .week td{
+        height: 20px;
+        width: 20px;
     }
 }
 
