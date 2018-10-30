@@ -114,10 +114,53 @@ li a:hover{
 /* MMMMMMMM Main MMMMMMMM */
 
 
+.contact-header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5%;
+}
 
 
+.contact-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5%;
+}
 
-
+.map-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5%;
+}
 
 
 
@@ -139,27 +182,31 @@ li a:hover{
 /* MMMMMMMM Word Style MMMMMMMM */
 
 .action-p{
-    font-family: 'Anton', sans-serif;
     font-size: 3rem;
 }
 
 .action-sub-p{
-    font-family: 'Anton', sans-serif;
     font-size: 3rem;
 }
 
-a .fas{
-    
-    color: #379681;
-    padding-top: 25px;
+a .fas, a .fab{
+    padding: 25px;
+    margin: 40px;
+    color: white;
+    background-color: #05396B;
+    border-radius: 50%;
 }
 
-.fas{
+.fas, .fab{
     color:white;
     padding:0;
     margin: 0;
-    padding-right: 15px;
     text-shadow: 2px 2px 2px black;
+}
+
+.intro-p-main{
+    color:white;
+    font-size: 2.5rem;
 }
 
 .intro-p-main a{

@@ -273,7 +273,15 @@ tr{
     width: 110px;
 }
 
+.events{
+    margin: 25px;
+    padding: 10px;
+    color:white;
+}
 
+.span-one{
+    font-size: 1rem;
+}
 
 
 
@@ -345,10 +353,12 @@ a .fas{
 span{
     font-size: 1.5rem;
     color:#05396B;
-    
 }
 
-
+.event-intro{
+    font-size: 1.5rem;
+    color: #444444;
+}
 
 
 
